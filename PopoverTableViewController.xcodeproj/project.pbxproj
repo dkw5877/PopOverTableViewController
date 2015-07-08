@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC447671B44DA900031E04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC447661B44DA900031E04F /* AppDelegate.swift */; };
+		CEC4476E1B44DA910031E04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC4476D1B44DA910031E04F /* Assets.xcassets */; };
+		CEC447711B44DA910031E04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC4476F1B44DA910031E04F /* LaunchScreen.storyboard */; };
+		CEC4477C1B44DA910031E04F /* PopoverTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4477B1B44DA910031E04F /* PopoverTableViewControllerTests.swift */; };
+		CEC447871B44DA910031E04F /* PopoverTableViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC447861B44DA910031E04F /* PopoverTableViewControllerUITests.swift */; };
+		CEC447951B44DC200031E04F /* PopoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC447941B44DC200031E04F /* PopoverTableViewController.swift */; };
+		CEC447971B44E7630031E04F /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC447961B44E7630031E04F /* PracticeViewController.swift */; };
+		CEC447991B44EC3F0031E04F /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC447981B44EC3F0031E04F /* LocationViewController.swift */; };
+		CEC4479B1B44EE530031E04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4479A1B44EE530031E04F /* ViewController.swift */; };
+		CEC4479D1B44FE780031E04F /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4479C1B44FE780031E04F /* UserViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC447781B44DA910031E04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC4475B1B44DA900031E04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC447621B44DA900031E04F;
+			remoteInfo = PopoverTableViewController;
+		};
+		CEC447831B44DA910031E04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC4475B1B44DA900031E04F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC447621B44DA900031E04F;
+			remoteInfo = PopoverTableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC447631B44DA900031E04F /* PopoverTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopoverTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC447661B44DA900031E04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEC4476D1B44DA910031E04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC447701B44DA910031E04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEC447721B44DA910031E04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC447771B44DA910031E04F /* PopoverTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoverTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC4477B1B44DA910031E04F /* PopoverTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverTableViewControllerTests.swift; sourceTree = "<group>"; };
+		CEC4477D1B44DA910031E04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC447821B44DA910031E04F /* PopoverTableViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoverTableViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC447861B44DA910031E04F /* PopoverTableViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverTableViewControllerUITests.swift; sourceTree = "<group>"; };
+		CEC447881B44DA910031E04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC447941B44DC200031E04F /* PopoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverTableViewController.swift; sourceTree = "<group>"; };
+		CEC447961B44E7630031E04F /* PracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		CEC447981B44EC3F0031E04F /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		CEC4479A1B44EE530031E04F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEC4479C1B44FE780031E04F /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC447601B44DA900031E04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC447741B44DA910031E04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4477F1B44DA910031E04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC4475A1B44DA900031E04F = {
+			isa = PBXGroup;
+			children = (
+				CEC447651B44DA900031E04F /* PopoverTableViewController */,
+				CEC4477A1B44DA910031E04F /* PopoverTableViewControllerTests */,
+				CEC447851B44DA910031E04F /* PopoverTableViewControllerUITests */,
+				CEC447641B44DA900031E04F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC447641B44DA900031E04F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC447631B44DA900031E04F /* PopoverTableViewController.app */,
+				CEC447771B44DA910031E04F /* PopoverTableViewControllerTests.xctest */,
+				CEC447821B44DA910031E04F /* PopoverTableViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC447651B44DA900031E04F /* PopoverTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEC447661B44DA900031E04F /* AppDelegate.swift */,
+				CEC4479A1B44EE530031E04F /* ViewController.swift */,
+				CEC447941B44DC200031E04F /* PopoverTableViewController.swift */,
+				CEC447961B44E7630031E04F /* PracticeViewController.swift */,
+				CEC447981B44EC3F0031E04F /* LocationViewController.swift */,
+				CEC4479C1B44FE780031E04F /* UserViewController.swift */,
+				CEC4476D1B44DA910031E04F /* Assets.xcassets */,
+				CEC4476F1B44DA910031E04F /* LaunchScreen.storyboard */,
+				CEC447721B44DA910031E04F /* Info.plist */,
+			);
+			path = PopoverTableViewController;
+			sourceTree = "<group>";
+		};
+		CEC4477A1B44DA910031E04F /* PopoverTableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4477B1B44DA910031E04F /* PopoverTableViewControllerTests.swift */,
+				CEC4477D1B44DA910031E04F /* Info.plist */,
+			);
+			path = PopoverTableViewControllerTests;
+			sourceTree = "<group>";
+		};
+		CEC447851B44DA910031E04F /* PopoverTableViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC447861B44DA910031E04F /* PopoverTableViewControllerUITests.swift */,
+				CEC447881B44DA910031E04F /* Info.plist */,
+			);
+			path = PopoverTableViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC447621B44DA900031E04F /* PopoverTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4478B1B44DA910031E04F /* Build configuration list for PBXNativeTarget "PopoverTableViewController" */;
+			buildPhases = (
+				CEC4475F1B44DA900031E04F /* Sources */,
+				CEC447601B44DA900031E04F /* Frameworks */,
+				CEC447611B44DA900031E04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopoverTableViewController;
+			productName = PopoverTableViewController;
+			productReference = CEC447631B44DA900031E04F /* PopoverTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC447761B44DA910031E04F /* PopoverTableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4478E1B44DA910031E04F /* Build configuration list for PBXNativeTarget "PopoverTableViewControllerTests" */;
+			buildPhases = (
+				CEC447731B44DA910031E04F /* Sources */,
+				CEC447741B44DA910031E04F /* Frameworks */,
+				CEC447751B44DA910031E04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC447791B44DA910031E04F /* PBXTargetDependency */,
+			);
+			name = PopoverTableViewControllerTests;
+			productName = PopoverTableViewControllerTests;
+			productReference = CEC447771B44DA910031E04F /* PopoverTableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEC447811B44DA910031E04F /* PopoverTableViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC447911B44DA910031E04F /* Build configuration list for PBXNativeTarget "PopoverTableViewControllerUITests" */;
+			buildPhases = (
+				CEC4477E1B44DA910031E04F /* Sources */,
+				CEC4477F1B44DA910031E04F /* Frameworks */,
+				CEC447801B44DA910031E04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC447841B44DA910031E04F /* PBXTargetDependency */,
+			);
+			name = PopoverTableViewControllerUITests;
+			productName = PopoverTableViewControllerUITests;
+			productReference = CEC447821B44DA910031E04F /* PopoverTableViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC4475B1B44DA900031E04F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = someCompanyNameHere;
+				TargetAttributes = {
+					CEC447621B44DA900031E04F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CEC447761B44DA910031E04F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CEC447621B44DA900031E04F;
+					};
+					CEC447811B44DA910031E04F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CEC447621B44DA900031E04F;
+					};
+				};
+			};
+			buildConfigurationList = CEC4475E1B44DA900031E04F /* Build configuration list for PBXProject "PopoverTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC4475A1B44DA900031E04F;
+			productRefGroup = CEC447641B44DA900031E04F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC447621B44DA900031E04F /* PopoverTableViewController */,
+				CEC447761B44DA910031E04F /* PopoverTableViewControllerTests */,
+				CEC447811B44DA910031E04F /* PopoverTableViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC447611B44DA900031E04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC447711B44DA910031E04F /* LaunchScreen.storyboard in Resources */,
+				CEC4476E1B44DA910031E04F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC447751B44DA910031E04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC447801B44DA910031E04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC4475F1B44DA900031E04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4479B1B44EE530031E04F /* ViewController.swift in Sources */,
+				CEC4479D1B44FE780031E04F /* UserViewController.swift in Sources */,
+				CEC447971B44E7630031E04F /* PracticeViewController.swift in Sources */,
+				CEC447951B44DC200031E04F /* PopoverTableViewController.swift in Sources */,
+				CEC447671B44DA900031E04F /* AppDelegate.swift in Sources */,
+				CEC447991B44EC3F0031E04F /* LocationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC447731B44DA910031E04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4477C1B44DA910031E04F /* PopoverTableViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4477E1B44DA910031E04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC447871B44DA910031E04F /* PopoverTableViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC447791B44DA910031E04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC447621B44DA900031E04F /* PopoverTableViewController */;
+			targetProxy = CEC447781B44DA910031E04F /* PBXContainerItemProxy */;
+		};
+		CEC447841B44DA910031E04F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC447621B44DA900031E04F /* PopoverTableViewController */;
+			targetProxy = CEC447831B44DA910031E04F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC4476F1B44DA910031E04F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC447701B44DA910031E04F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC447891B44DA910031E04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC4478A1B44DA910031E04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC4478C1B44DA910031E04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopoverTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.PopoverTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC4478D1B44DA910031E04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopoverTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.PopoverTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEC4478F1B44DA910031E04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopoverTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.PopoverTableViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopoverTableViewController.app/PopoverTableViewController";
+			};
+			name = Debug;
+		};
+		CEC447901B44DA910031E04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopoverTableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.PopoverTableViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopoverTableViewController.app/PopoverTableViewController";
+			};
+			name = Release;
+		};
+		CEC447921B44DA910031E04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopoverTableViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.PopoverTableViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopoverTableViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEC447931B44DA910031E04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopoverTableViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.someCompanyNameHere.PopoverTableViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopoverTableViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC4475E1B44DA900031E04F /* Build configuration list for PBXProject "PopoverTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC447891B44DA910031E04F /* Debug */,
+				CEC4478A1B44DA910031E04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC4478B1B44DA910031E04F /* Build configuration list for PBXNativeTarget "PopoverTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4478C1B44DA910031E04F /* Debug */,
+				CEC4478D1B44DA910031E04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEC4478E1B44DA910031E04F /* Build configuration list for PBXNativeTarget "PopoverTableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4478F1B44DA910031E04F /* Debug */,
+				CEC447901B44DA910031E04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEC447911B44DA910031E04F /* Build configuration list for PBXNativeTarget "PopoverTableViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC447921B44DA910031E04F /* Debug */,
+				CEC447931B44DA910031E04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC4475B1B44DA900031E04F /* Project object */;
+}
