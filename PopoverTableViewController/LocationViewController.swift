@@ -20,7 +20,8 @@ class LocationViewController: PopoverTableViewController {
     }
 
     func createData() {
-        for var i = 0; i < 30; i++ {
+
+        for var i = 0; i < 5; i++ {
             let value = "Location \(i)"
             dataSource.append(value)
         }
@@ -41,7 +42,7 @@ class LocationViewController: PopoverTableViewController {
     }
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let tbvc =  UserViewController()
+        let tbvc =  GroupViewController()
         navigationController?.pushViewController(tbvc, animated: true)
     }
 }

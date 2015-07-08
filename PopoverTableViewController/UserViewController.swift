@@ -20,7 +20,8 @@ class UserViewController: PopoverTableViewController {
     }
 
     func createData() {
-        for var i = 0; i < 3; i++ {
+        
+        for var i = 0; i < 6; i++ {
             let value = "User \(i)"
             dataSource.append(value)
         }
@@ -41,7 +42,7 @@ class UserViewController: PopoverTableViewController {
     }
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let tbvc =  LocationViewController()
+        let tbvc =  TitleViewController()
         navigationController?.pushViewController(tbvc, animated: true)
     }
 }

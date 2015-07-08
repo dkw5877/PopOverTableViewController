@@ -17,6 +17,8 @@
 		CEC447991B44EC3F0031E04F /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC447981B44EC3F0031E04F /* LocationViewController.swift */; };
 		CEC4479B1B44EE530031E04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4479A1B44EE530031E04F /* ViewController.swift */; };
 		CEC4479D1B44FE780031E04F /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4479C1B44FE780031E04F /* UserViewController.swift */; };
+		CED026691B4CD650004C553C /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED026681B4CD650004C553C /* GroupViewController.swift */; };
+		CED0266B1B4CD6A8004C553C /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0266A1B4CD6A8004C553C /* TitleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		CEC447981B44EC3F0031E04F /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		CEC4479A1B44EE530031E04F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEC4479C1B44FE780031E04F /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		CED026681B4CD650004C553C /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		CED0266A1B4CD6A8004C553C /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +112,9 @@
 				CEC447941B44DC200031E04F /* PopoverTableViewController.swift */,
 				CEC447961B44E7630031E04F /* PracticeViewController.swift */,
 				CEC447981B44EC3F0031E04F /* LocationViewController.swift */,
+				CED026681B4CD650004C553C /* GroupViewController.swift */,
 				CEC4479C1B44FE780031E04F /* UserViewController.swift */,
+				CED0266A1B4CD6A8004C553C /* TitleViewController.swift */,
 				CEC4476D1B44DA910031E04F /* Assets.xcassets */,
 				CEC4476F1B44DA910031E04F /* LaunchScreen.storyboard */,
 				CEC447721B44DA910031E04F /* Info.plist */,
@@ -268,7 +274,9 @@
 				CEC447971B44E7630031E04F /* PracticeViewController.swift in Sources */,
 				CEC447951B44DC200031E04F /* PopoverTableViewController.swift in Sources */,
 				CEC447671B44DA900031E04F /* AppDelegate.swift in Sources */,
+				CED0266B1B4CD6A8004C553C /* TitleViewController.swift in Sources */,
 				CEC447991B44EC3F0031E04F /* LocationViewController.swift in Sources */,
+				CED026691B4CD650004C553C /* GroupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +495,7 @@
 				CEC4478D1B44DA910031E04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEC4478E1B44DA910031E04F /* Build configuration list for PBXNativeTarget "PopoverTableViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +504,7 @@
 				CEC447901B44DA910031E04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEC447911B44DA910031E04F /* Build configuration list for PBXNativeTarget "PopoverTableViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +513,7 @@
 				CEC447931B44DA910031E04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
